@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "b59b7ff2-2a03-438a-885f-bf4dc60ac08b"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,9 +30,26 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/slick.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/animate.min.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/style.css",
+              "src/assets/css/main-color.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.countdown.min.js",
+              "src/assets/js/jquery.nice-select.min.js",
+              "src/assets/js/jquery.nicescroll.min.js",
+              "src/assets/js/slick.min.js",
+              "src/assets/js/biolife.framework.js",
+              "src/assets/js/functions.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -94,9 +114,25 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/slick.min.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/animate.min.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/style.css",
+              "src/assets/css/main-color.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.countdown.min.js",
+              "src/assets/js/jquery.nice-select.min.js",
+              "src/assets/js/jquery.nicescroll.min.js",
+              "src/assets/js/slick.min.js",
+              "src/assets/js/biolife.framework.js",
+              "src/assets/js/functions.js"
+            ]
           }
         }
       }

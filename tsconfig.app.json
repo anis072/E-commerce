@@ -3,7 +3,10 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": ["jquery"],
+    "paths": {
+      "@SProjects/shared":["src/app/sahred/shared.module.ts"],
+    }
   },
   "files": [
     "src/main.ts",
