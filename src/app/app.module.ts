@@ -17,6 +17,10 @@ import { AppComponent } from './app.component';
       {
         path:'',
         loadChildren : ()=> import('src/app/shared/shared.module').then((m)=>m.SharedModule)
+      },
+      {
+        path:'auth',
+        loadChildren:()=> import('src/app/features/features.module').then((m)=>m.FeaturesModule)
       }
     ]),
     HttpClientModule
